@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+       body   {
+           width: 800px;
+           background-color:lightblue;}
+       body {text-align: center;}
+       main {
+           float:left;
+           width: 600px;
+           background-color: blue;
+           font-family: 'Varela Round';font-size: 22px;
+       }
+       nav{
+        float:left;
+           width: 180px;
+           background-color: rgb(202, 80, 202);
+           align-content: center;
+           height: 300px;
+        
+           tr:nth-child(even) {background: #CCC}
+           tr:nth-child(odd) {background: #FFF}
+       }
+      
+       h1 {background-color:green;
+        font-family: Ubuntu, sans-serif;
+  font-size: 46px; 
+          
+       }
+       h2{font-family: Ubuntu, sans-serif;
+        font-size: 26px; }
+       footer{
+           background-color: black;
+          color: white;
+           padding: 10px;}
+           
+      section:after {
+    content: "";
+    display: table;
+    clear: both; }
